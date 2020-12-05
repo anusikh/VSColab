@@ -1,8 +1,0 @@
-README.md
-setup.py
-VSColab/__init__.py
-VSColab/code.py
-VSColab.egg-info/PKG-INFO
-VSColab.egg-info/SOURCES.txt
-VSColab.egg-info/dependency_links.txt
-VSColab.egg-info/top_level.txt
