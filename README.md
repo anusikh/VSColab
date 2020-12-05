@@ -21,7 +21,7 @@ Using this package we can ssh into the Google Colab instance and also perform re
 - To kill the tunnel, use the `Kill()` function.
 
 ### Colab starter notebook: 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/abhishekkrthakur/colabcode/blob/master/colab_starter.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tZki6bp9x81jzn05zczR7aK03owsAscd?usp=sharing)
 
 ### Remote development with VSCode:
 - First create a tunnel using the `Connect()` function.
