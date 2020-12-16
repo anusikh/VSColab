@@ -15,17 +15,16 @@ Using this package we can ssh into the Google Colab instance and also perform re
 
 ### Getting Started:
 - Install the package
-- Use the `Connect()` function to create an Ngrok tunnel, by passing a password string as a parameter.
+- Use the `VSColab.Connect('type-password-here')` function to create an Ngrok tunnel.
 - Then Enter the Authentication Key (which can be obtained from:https://dashboard.ngrok.com/auth/your-authtoken) and press Enter.
-- Use the `VSconfig()` function to get the contents for the VSCode Config file, by passing the URL of the Ngrok tunnel (which can be obtained from: https://dashboard.ngrok.com/status/tunnels)
-- To kill the tunnel, use the `Kill()` function.
+- Copy paste the ssh command in terminal/cmd
+- To kill the tunnel, use the `VSColab.Kill()` function.
 
 ### Colab starter notebook: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tZki6bp9x81jzn05zczR7aK03owsAscd?usp=sharing)
 
 ### Remote development with VSCode:
 - First create a tunnel using the `Connect()` function.
-- Use the `VSconfig()` function to get the contents for the VSCode Config file, by passing the URL of the Ngrok tunnel (which can be obtained from: https://dashboard.ngrok.com/status/tunnels) and copy the Output.
 - Then install the **remote-ssh** plugin in VSCode, and click the button at the bottom left corner. 
 - Then select the __Open Configuration Files..__ option and enter the copied text there.
 - Then select the __Connect to Host..__ option and Enter the password when asked.
