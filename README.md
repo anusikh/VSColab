@@ -32,6 +32,9 @@ Using this package we can ssh into the Google Colab instance and also perform re
 - __Viola!! A fully functional Development environment powered by the GPU's and TPU's of Google Colab__
 
 
+![](VSColab/ss.png)
+
+
 ### Note:
 If the command `$ nvidia-smi` doesn't work in the ssh session, simple type :
 ```
