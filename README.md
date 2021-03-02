@@ -32,6 +32,7 @@ Using this package we can ssh into the Google Colab instance and also perform re
 - __Viola!! A fully functional Development environment powered by the GPU's and TPU's of Google Colab__
 
 
+![](VSColab/ss3.png)
 ![](VSColab/ss.png)
 ![](VSColab/ss2.png)
 
