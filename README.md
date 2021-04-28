@@ -37,7 +37,7 @@ Using this package we can ssh into the Google Colab instance and also perform re
 ![](VSColab/ss2.png)
 
 ### Note:
-If the command `$ nvidia-smi` doesn't work in the ssh session, simple type :
+If the command `$ nvidia-smi` doesn't work in the ssh session, simply type :
 ```
 export LD_PRELOAD=/usr/lib64-nvidia/libnvidia-ml.so
 ```
