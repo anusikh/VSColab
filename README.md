@@ -36,9 +36,9 @@ Using this package we can ssh into the Google Colab instance and also perform re
 - Then select the **Connect to Host..** option and Enter the password when asked.
 - **Viola!! A fully functional Development environment powered by the GPU's and TPU's of Google Colab**
 
-![](VSColab/Screenshots/ss3.png)
-![](VSColab/Screenshots/ss.png)
-![](VSColab/Screenshots/ss2.png)
+![](Screenshots/ss3.png)
+![](Screenshots/ss.png)
+![](Screenshots/ss2.png)
 
 ### Note:
 
