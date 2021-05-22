@@ -15,12 +15,17 @@ $ pip install VSColab
 
 Using this package we can ssh into the Google Colab instance and also perform remote developement using VSCode.
 
+### What's New in 0.1.4:
+
+- `GetSSH()` function automates the process of getting the Tunnel URL.
+
 ### Getting Started:
 
 - Install the package
 - Use the `Connect()` function to create an Ngrok tunnel, by passing a password string as a parameter.
 - Then Enter the Authentication Key (which can be obtained from:https://dashboard.ngrok.com/auth/your-authtoken) and press Enter.
-- Use the `VSconfig()` function to get the contents for the VSCode Config file, by passing the URL of the Ngrok tunnel (which can be obtained from: https://dashboard.ngrok.com/status/tunnels)
+- To get the ssh command, run the `GetSSH()` function.
+- Use the `VSconfig()` function to get the contents for the VSCode Config file, by passing the Tunnel URL (which can be obtained from the `GetSSH()` function).
 - To kill the tunnel, use the `Kill()` function.
 
 ### Colab starter notebook:
@@ -30,7 +35,7 @@ Using this package we can ssh into the Google Colab instance and also perform re
 ### Remote development with VSCode:
 
 - First create a tunnel using the `Connect()` function.
-- Use the `VSconfig()` function to get the contents for the VSCode Config file, by passing the URL of the Ngrok tunnel (which can be obtained from: https://dashboard.ngrok.com/status/tunnels) and copy the Output.
+- Use the `VSconfig()` function to get the contents for the VSCode Config file, by passing the Tunnel URL (which can be obtained from the `GetSSH()` function).
 - Then install the **remote-ssh** plugin in VSCode, and click the button at the bottom left corner.
 - Then select the **Open Configuration Files..** option and enter the copied text there.
 - Then select the **Connect to Host..** option and Enter the password when asked.

@@ -7,7 +7,7 @@ with open('README.md') as readme_file:
 if __name__ == "__main__":
     setup(
         name='VSColab',
-        version='0.1.1',
+        version='0.1.4',
         description='SSH into Colab Notebooks and use VSCode for remote development',
         long_description=long_description,
         long_description_content_type="text/markdown",
